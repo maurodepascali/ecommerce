@@ -1,0 +1,47 @@
+.item{
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.item:hover .imagen-item{
+  -webkit-transform:scale(-1);transform:scale(0.9);
+}
+.item:hover .title{
+  -webkit-transform:scale(-1);transform:scale(0.9);
+}
+    .link-item{
+      text-decoration: none;
+    }
+
+     .imagen-item {
+      height: 200px;
+      width: 300px;  
+    
+       }
+    .container{
+      margin-bottom: 10px;
+      margin-top: 10px;
+       }
+
+       .title{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       }
+       .title-name{
+         font-size: 25px; 
+         font-style: italic;
+         color: rgba(24, 23, 23, 0.945);;
+     
+       }
+       .title p{
+        padding: 10px;  
+      }
+      .title-price{
+        font-style: italic;
+        font-size: 20px;
+        color: rgb(77, 77, 131);
+      }
+
+      
