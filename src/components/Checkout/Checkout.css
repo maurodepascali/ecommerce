@@ -1,0 +1,28 @@
+.containerCheckout{
+    margin-top: 85px;
+    margin-bottom: 60px;
+}
+
+.titleCheckout{
+    text-align: center;
+    padding: 10px;
+}
+
+.form{
+    text-align: center;
+}
+.form input {
+    width: 20%;
+}
+
+.buttonCheckout{
+    padding:10px;
+}
+
+input{
+    padding: 5px;
+}
+
+.col-md-3{
+    padding: 5px;
+}

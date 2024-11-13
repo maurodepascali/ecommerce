@@ -1,0 +1,40 @@
+
+    .titulo-detail{
+    padding: 10px;
+    font-size:30px;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+   }
+
+     .stock-detail{
+        text-align:center; 
+     }
+
+     .price-detail{
+        text-align:center; 
+     }
+
+     
+   .imagen-detail {
+      height: 300px;
+      width: 500px;   
+       }
+
+    .container-detail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+
+    }
+
+    .buttonAdd{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 20px;
+    }
+   
+
+   

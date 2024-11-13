@@ -1,0 +1,51 @@
+.navbar{
+    background-color: rgba(226, 221, 221, 0.945);
+    position: fixed; 
+    width: 100%;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .left{
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .navbar .right{ 
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .logo {
+    height:2rem;
+  }
+  /*dropdwon productos*/
+  .dropdown{
+    margin-top: 25px; 
+  }
+  .linkCategory{
+    text-decoration: none;
+  }
+  .linkCategory p{
+    color: black;
+  }
+
+  .button p{
+    color: rgb(241, 178, 178);
+  }
+
+  .right ul li{
+    list-style: none;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .linkSection{
+    text-decoration: none;
+    color: black;
+  }
+  .right ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

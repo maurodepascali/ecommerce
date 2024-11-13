@@ -1,0 +1,59 @@
+
+.down-footer p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color:rgb(170, 165, 165);
+}
+
+.footer{
+    background-color:rgb(211, 202, 202);
+    
+    position: relative;
+    bottom: 0;
+}
+
+.middle-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(211, 202, 202);
+    height: 80px;
+    padding: 10px;
+
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+.redes div{
+    padding: 5px;
+}
+
+.titulo-footer h6{
+    font-size: 15px;
+}
+.middle-footer div{
+    font-size: 15px;
+    text-align: center;
+}
+.middle-footer h5{
+    padding: 5px;
+}
+
+.logo-footer{
+    height: 2rem;
+}
+
+.middle-footer ul li {
+    list-style: none;
+    font-size: 12px;
+}
