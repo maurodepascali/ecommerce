@@ -1,12 +1,15 @@
-*{
+* {
   padding: 0;
   margin: 0;
+  /* Eliminar min-height: 100vh de aquí */
 }
 
 .App {
-  text-align: center;
+  padding-top: 50px; /* Este valor debe ser igual a la altura de tu navbar */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,4 +43,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px; /* Para el espacio del navbar fijo */
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }

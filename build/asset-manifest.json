@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.5d85fd6a.css",
+    "main.js": "/ecommerce/static/js/main.a34405eb.js",
+    "static/js/453.c0fcdf96.chunk.js": "/ecommerce/static/js/453.c0fcdf96.chunk.js",
+    "static/media/macarons.jpg": "/ecommerce/static/media/macarons.9ab2087850356a787aca.jpg",
+    "static/media/vacio.png": "/ecommerce/static/media/vacio.f042828eb1158d626c8f.png",
+    "index.html": "/ecommerce/index.html",
+    "main.5d85fd6a.css.map": "/ecommerce/static/css/main.5d85fd6a.css.map",
+    "main.a34405eb.js.map": "/ecommerce/static/js/main.a34405eb.js.map",
+    "453.c0fcdf96.chunk.js.map": "/ecommerce/static/js/453.c0fcdf96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d85fd6a.css",
+    "static/js/main.a34405eb.js"
+  ]
+}

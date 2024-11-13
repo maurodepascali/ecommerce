@@ -11,13 +11,12 @@ import Checkout from './components/Checkout/Checkout';
 
 
 function App() {
-
-    return (
-      <div className="home-container">
-        <div className="content">
-          <CartProvider>
-            <Router basename="/ecommerce">
-              <Navbar/>
+  return (
+    <div className="home-container">
+      <CartProvider>
+        <Router basename="/ecommerce">
+          <Navbar/>
+          <div className="content">
             <Switch>
               <Route exact path="/"><ItemListContainer/></Route>
               <Route path="/category/:categoryName"><ItemListContainer/></Route>
@@ -26,13 +25,13 @@ function App() {
               <Route path="/checkout"><Checkout/></Route>
               <Route path="*">Error 404</Route>
             </Switch>
-              <Footer/>
-            </Router>
-          </CartProvider>
-        </div>
-      </div>
-    );
-  }
+          </div>
+          <Footer/>
+        </Router>
+      </CartProvider>
+    </div>
+  );
+}
 export default App;
 
 

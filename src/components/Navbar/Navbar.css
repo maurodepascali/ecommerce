@@ -1,51 +1,82 @@
-.navbar{
-    background-color: rgba(226, 221, 221, 0.945);
-    position: fixed; 
-    width: 100%;
-    height: 50px; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .navbar .left{
-    margin-left: 20px;
-    margin-top: 5px;
-  }
-  .navbar .right{ 
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-  .logo {
-    height:2rem;
-  }
-  /*dropdwon productos*/
-  .dropdown{
-    margin-top: 25px; 
-  }
-  .linkCategory{
-    text-decoration: none;
-  }
-  .linkCategory p{
-    color: black;
+.navbar {
+  background-color: rgba(226, 221, 221, 0.945);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.right ul li {
+  list-style: none;
+  padding: 0 15px;
+  font-size: 12px;
+}
+
+.linkSection {
+  text-decoration: none;
+  color: black;
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+/* Estilos para móvil */
+@media (max-width: 768px) {
+  .mobile-menu-button {
+      display: block;
   }
 
-  .button p{
-    color: rgb(241, 178, 178);
+  .right {
+      display: none; /* Oculto por defecto en móvil */
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      background-color: rgba(226, 221, 221, 0.945);
+      width: 100%;
   }
 
-  .right ul li{
-    list-style: none;
-    color: white;
-    padding: 10px;
-    font-size: 12px;
+  .right.active {
+      display: block; /* Se muestra cuando está activo */
   }
-  .linkSection{
-    text-decoration: none;
-    color: black;
+
+  .right ul {
+      flex-direction: column;
+      width: 100%;
   }
-  .right ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .right ul li {
+      width: 100%;
+      text-align: center;
+      padding: 15px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
+}
